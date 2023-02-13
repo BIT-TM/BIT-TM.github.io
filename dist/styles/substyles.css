@@ -1,0 +1,35 @@
+/* sizes and styles (without colors) */
+:root {
+	/* m : mobile
+	** d : desktop
+	** a : anything
+	*/
+	--a-border-width: 1px;
+	--en-font: en;
+	--fa-font: fa;
+}
+
+/* fonts */
+@font-face {
+	font-family: "en";
+	src: url(../assets/ubuntu.ttf);
+}
+@font-face {
+	font-family: "fa";
+	src: url(../assets/vazir.ttf);
+}
+
+/* animations */
+@keyframes fadeIn {
+	from {
+		bottom: 0;
+		opacity: 0;
+		height: fit-content;
+	}
+
+	to {
+		bottom: 30px;
+		opacity: 1;
+		height: fit-content;
+	}
+}

@@ -1,0 +1,13 @@
+:root {
+	--back: #191b22;
+	--under: #282A36;
+	--front: #651FFF;
+	--text: white;
+	--tag : #9575CDaa;
+	--gray: #cccccc;
+	--contrast: #191b22;
+}
+
+.member-photo {
+	filter: grayscale(100%);
+}
